@@ -2,7 +2,7 @@ package com.thethim.ds;
 import java.util.List;
 
 /**
- * Created by Avinash on 18-02-2016.
+ * Created by Avinash.
  */
 public interface Graph {
 

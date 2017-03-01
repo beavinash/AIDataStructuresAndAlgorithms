@@ -3,7 +3,7 @@ package com.thethim.ds;
 import java.util.*;
 
 /**
- * Created by Avinash on 19-02-2016.
+ * Created by Avinash.
  */
 public class Dijkstra {
 

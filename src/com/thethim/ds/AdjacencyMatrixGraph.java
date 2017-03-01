@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Avinash on 18-02-2016.
+ * Created by Avinash.
  */
 public class AdjacencyMatrixGraph implements Graph {
 

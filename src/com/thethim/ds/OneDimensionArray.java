@@ -19,6 +19,23 @@ public class OneDimensionArray {
 			sum += randomNumbers[i];
 		}
 		System.out.println(sum);
+		System.out.println("\n");
+		
+		// array of objects
+		Student[] students = new Student[3];
+		
+		students[0] = new Student("Avinash", 24);
+		students[1] = new Student("Avinash", 24);
+		students[2] = new Student("Avinash", 24);
+		// students[3] = new Student("Avinash", 24);
+		
+//		for (int i=0; i < students.length; i++) {
+//			System.out.println("Name: " + students[i].name + " " + "Age: " + students[i].age);
+//		}
+		
+		for (Student student : students) {
+			System.out.println("Name: " + student.name + " " + "Age: " + student.age);
+		}
 	}
 
 }
